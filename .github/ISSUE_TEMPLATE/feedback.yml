@@ -1,0 +1,21 @@
+name: Idea or feedback
+description: Something that could be better, easier or more fun.
+title: "[Idea] "
+labels: ["idea", "from-installer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Reports here are **public**: don't include personal details.
+  - type: textarea
+    id: what
+    attributes:
+      label: Your idea or feedback
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and system
+      description: Filled in by the installer.
+      render: text

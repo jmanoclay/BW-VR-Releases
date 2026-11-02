@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in the VR mod or the installer doesn't work as it should.
+title: "[Bug] "
+labels: ["bug", "from-installer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Reports here are **public**: don't include personal details.
+        If you opened this from the installer, the versions and a short part of the log are filled in for you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: The steps, if you know them (where you were in the game, what you did with your hands).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installer or patches
+        - Starting the game / SteamVR
+        - The view or the picture
+        - The god hand (picking up, throwing, petting)
+        - Miracles and gestures
+        - Moving around
+        - Menus, cutscenes, the temple
+        - Creature and leash
+        - Sound
+        - Performance (stutter, low frame rate)
+        - Crash
+        - Something else
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and system
+      description: Filled in by the installer.
+      render: text
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (last lines)
+      description: Filled in by the installer, with your Windows user name removed. Snapshots from the other hand's B button (bwvr\captures\feedback_*) can be dragged in below.
+      render: text
