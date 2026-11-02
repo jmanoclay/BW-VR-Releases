@@ -6,7 +6,7 @@ is all around you. Made for SteamVR (developed on a Valve Index).
 This page holds the downloads. **Get the latest from [Releases](../../releases/latest).**
 
 ## Install
-1. Download **`BWVR-Setup-<version>.exe`** from the latest release and run it.
+1. Download **`JakeypooBWVRModInstaller.exe`** from the latest release and run it. It keeps itself up to date.
    It isn't code-signed yet, so Windows may say *"Windows protected your PC"*: click
    **More info**, then **Run anyway**.
 2. The installer finds your Black & White folder and checks it, step by step:
